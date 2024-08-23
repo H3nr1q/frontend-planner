@@ -79,11 +79,6 @@ export function CreateTripPage() {
 
   async function createTrip(event: FormEvent<HTMLFormElement>){
     event.preventDefault()
-  
-    console.log("🚀 ~ createTrip ~ destination:", destination)  
-    console.log("🚀 ~ createTrip ~ ownerEmail:", ownerEmail)
-    console.log("🚀 ~ createTrip ~ ownerName:", ownerName)
-    console.log("🚀 ~ createTrip ~ eventStartAndEndDates:", eventStartAndEndDates)
 
     if(!destination) return
 
@@ -168,5 +163,3 @@ export function CreateTripPage() {
 
   )
 }
-
-//Aula 3 - 37 min
