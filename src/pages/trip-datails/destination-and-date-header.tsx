@@ -67,7 +67,6 @@ export function DestinationAndDateHeader(){
         {isDestinationAndModalOpen && (
           <DestinationAndDateModal
             destination={destination}
-            displayedDate={displayedDate}
             setEventStartAndEndDates={setEventStartAndEndDates}
             eventStartAndEndDates={eventStartAndEndDates}
           />

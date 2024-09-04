@@ -1,4 +1,4 @@
-import { Calendar, Link2, MapPin, Plus, Tag, X } from "lucide-react";
+import { Calendar, MapPin, X } from "lucide-react";
 import { Button } from "../../components/button";
 import { FormEvent, useState } from "react";
 import { DateRange, DayPicker } from "react-day-picker";
@@ -10,7 +10,6 @@ import { format } from "date-fns";
 interface DestinationAndDateModalProps{
 	eventStartAndEndDates: DateRange | undefined
 	destination: string
-	displayedDate: string
 	setEventStartAndEndDates: (dates: DateRange | undefined) => void
 }
 
